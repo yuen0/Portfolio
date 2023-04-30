@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Cormorant&family=Miriam+Libre:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Miriam+Libre:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.transform-bgr1S-s1 {
+		transform: rotatez(45deg) translate(5px, 0px);
+	}
+	.transform-bgr1S-s2 {
+		transform: rotatez(-45deg);
+	}
+	.transform-bgr1S-s3 {
+		width: 50%;
+		transform: translate(14px, -5px) rotatez(45deg);
+	}
+}
+/* Change scrollbar color for webkit browsers */
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #212121;
+}
+
+/* Change scrollbar thumb color for webkit browsers */
+::-webkit-scrollbar-thumb {
+	background-color: #01f5b4;
+	border-radius: 10px; /* make it square */
+}
+
+/* Change scrollbar color for Firefox */
+scrollbar {
+	width: 10px;
+	background-color: #212121;
+}
+
+/* Change scrollbar thumb color for Firefox */
+scrollbar thumb {
+	background-color: #01f5b4;
+	border-radius: 10px; /* make it square */
+}
+
+/* Change scrollbar color for Internet Explorer and Edge */
+::-ms-scrollbar {
+	width: 10px;
+	background-color: #212121;
+}
+
+/* Change scrollbar thumb color for Internet Explorer and Edge */
+::-ms-thumb {
+	background-color: #01f5b4;
+	border-radius: 10px; /* make it square */
+}
+
+a {
+	scroll-behavior: smooth;
+}
