@@ -4,7 +4,7 @@ import ResponsiveSlider from "./Slider";
 const Work = () => {
 	const slides = [
 		{
-			image: "dist/restaurant.jpg",
+			image: "public/restaurant.JPG",
 			title: "The Restaurant",
 			description:
 				"Group assignment where we had to build a mock restaurant application using Typescipt and React. We also had to incorporate a working admin page for bookings and a customer booking form using an internal API.",
