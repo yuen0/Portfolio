@@ -6,7 +6,7 @@ import HamburgerMenu from "./Components/Navbar";
 import Footer from "./Components/Footer";
 const App = () => {
 	return (
-		<Router basename="/Portfolio">
+		<Router basename="/https://nicolasyuen.com">
 			<HamburgerMenu />
 			<Routes>
 				<Route exact path="/" element={<Homepage />} />
