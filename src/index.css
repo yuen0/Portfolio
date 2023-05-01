@@ -55,11 +55,8 @@ scrollbar thumb {
 	border-radius: 10px; /* make it square */
 }
 
-a {
-	scroll-behavior: smooth;
-}
-
 html,
 body {
+	scroll-behavior: smooth;
 	overflow-x: hidden;
 }

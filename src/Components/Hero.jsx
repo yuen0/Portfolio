@@ -2,7 +2,10 @@ import React from "react";
 import { SlArrowDown } from "react-icons/sl";
 const Hero = () => {
 	return (
-		<div className="relative flex flex-col justify-center  h-screen py-6  lg:pt-0 lg:flex-col lg:pb-0 bg-primary-100">
+		<div
+			id="home"
+			className="relative flex flex-col justify-center  h-screen py-6  lg:pt-0 lg:flex-col lg:pb-0 bg-primary-100"
+		>
 			<div className="relative flex flex-col  items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
 				<div className="mb-16 md:mx-auto lg:my-40 lg:max-w-lg lg:pr-5">
 					<p className="inline-block py-px mb-1 text-xs font-semibold tracking-wider text-secondary-100 uppercase rounded-full ">

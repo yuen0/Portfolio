@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 const HamburgerMenu = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	const navRef = useRef();
@@ -62,16 +63,19 @@ const HamburgerMenu = () => {
 				}`}
 			>
 				<Link to="/" className="block mb-4">
-					Home
+					<HashLink to="/#home">Home</HashLink>
 				</Link>
-				<a href="#about" className="block mb-4">
+
+				<NavHashLink to="/#about" className="block mb-4">
 					About
-				</a>
-				<a href="#work" className="block mb-4">
+				</NavHashLink>
+
+				<NavHashLink to="/#work" className="block mb-4">
 					Work
-				</a>
+				</NavHashLink>
+
 				<Link to="/contactpage" className="block mb-4">
-					Contact
+					<NavHashLink to="/contactpage/#contact">Contact</NavHashLink>
 				</Link>
 				<a
 					target="_blank"

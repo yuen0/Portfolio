@@ -36,7 +36,10 @@ const Contact = () => {
 	};
 
 	return (
-		<section className=" relative bg-primary-100 mx-auto h-screen  py-48">
+		<section
+			id="contact"
+			className=" relative bg-primary-100 mx-auto h-screen  py-48"
+		>
 			<div>
 				<h2 className="mb-4 text-4xl font-lato tracking-wider font-extrabold text-center text-[#01f5b4]">
 					Contact me.
