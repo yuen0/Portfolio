@@ -20,40 +20,40 @@
 	}
 }
 /* Change scrollbar color for webkit browsers */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
 	width: 10px;
 	background-color: #212121;
-}
+} */
 
 /* Change scrollbar thumb color for webkit browsers */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
 	background-color: #01f5b4;
 	border-radius: 10px; /* make it square */
-}
+/* } */
 
 /* Change scrollbar color for Firefox */
-scrollbar {
+/* scrollbar {
 	width: 10px;
 	background-color: #212121;
-}
+} */
 
 /* Change scrollbar thumb color for Firefox */
-scrollbar thumb {
+/* scrollbar thumb {
 	background-color: #01f5b4;
 	border-radius: 10px; /* make it square */
-}
+/* } */
 
 /* Change scrollbar color for Internet Explorer and Edge */
-::-ms-scrollbar {
+/* ::-ms-scrollbar {
 	width: 10px;
 	background-color: #212121;
-}
+} */
 
 /* Change scrollbar thumb color for Internet Explorer and Edge */
-::-ms-thumb {
+/* ::-ms-thumb {
 	background-color: #01f5b4;
 	border-radius: 10px; /* make it square */
-}
+/* }  */
 
 a {
 	scroll-behavior: smooth;
