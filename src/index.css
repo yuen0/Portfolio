@@ -58,3 +58,8 @@ scrollbar thumb {
 a {
 	scroll-behavior: smooth;
 }
+
+html,
+body {
+	overflow-x: hidden;
+}
